@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: lemonchiffon;
+  padding: 30px, 40px;
+  color: black;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 1rem;
+}
+
+input {
+  width: 75%;
+  margin-right: 0;
+  padding: 10px;
+  border: none;
+  font-size: 1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#addBtn,
+#clear-button {
+  width: 25%;
+  padding: 10px;
+  margin: 1rem;
+  background-color: cornflowerblue;
+  color: black;
+  text-align: center;
+  border-radius: 2%;
+  border-style: none;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+
+#addBtn:hover {
+  background-color: cadetblue;
+  color: white;
+}
+
+.trash-button {
+  background-color: coral;
+  color: black;
+  margin-left: 20px;
+  border-style: solid;
+  border-radius: 5%;
+  border-color: crimson;
+}
+
+.check-button {
+  background-color: blue;
+  color: white;
+  margin-left: 20px;
+  border-style: solid;
+  border-radius: 5%;
+  border-color: cornflowerblue;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  font-size: 1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+ul li:nth-child(odd) {
+  background-color: bisque;
+}
+
+ul .checked {
+  color: black;
+  text-decoration: line-through;
+}
