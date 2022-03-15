@@ -81,7 +81,7 @@ ul li:nth-child(odd) {
   background-color: bisque;
 }
 
-ul .checked {
+ul .checked .task-text {
   color: black;
   text-decoration: line-through;
 }

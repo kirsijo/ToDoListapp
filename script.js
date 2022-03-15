@@ -41,7 +41,7 @@ const makeList = () => {
   /* create HTML elements */
 
   toDoList.forEach((item, taskIndex) => {
-    listHTML += `<li data-taskindex="${taskIndex}"> <span id="task-text-${taskIndex}"></span><button class="check-button"> <span class="material-icons">done_outline</span> </button> <button class="trash-button"><span class="material-icons">
+    listHTML += `<li data-taskindex="${taskIndex}"> <span class="task-text" id="task-text-${taskIndex}"></span><button class="check-button"> <span class="material-icons">done_outline</span> </button> <button class="trash-button"><span class="material-icons">
     delete
     </span></button></li>`;
   });
